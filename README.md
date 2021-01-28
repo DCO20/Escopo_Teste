@@ -2,14 +2,14 @@
  Projeto ICETEC Desenvolvedor Full Stack 
  
 # Ações disponiveis
-# Api
+##### Api
 CRUD de recrutadores, candidatos e tecnologias.
 
-# Frond-End
+##### Frond-End
 Login e cadastro de candidatos.
 
 Rodar o comando php artisan db:seed --class=UsersTableSeeder
 
-#####Login:
-Email:recrutador@recrutador.com
-Senha: password
+##### Login:
+##### Email:recrutador@recrutador.com
+##### Senha: password
