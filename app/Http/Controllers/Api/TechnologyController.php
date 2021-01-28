@@ -28,13 +28,13 @@ class TechnologyController extends Controller
 
     public function update(Request $request, $id)
     {
-        $device =Technology::findOrFail($id);
-        $device->update($request->all());
+        $technology =Technology::findOrFail($id);
+        $technology->update($request->all());
     }
 
     public function destroy($id)
     {
-        $device =Technology::findOrFail($id);
-        $device->delete();
+        $technology =Technology::findOrFail($id);
+        $technology->delete();
     }
 }

@@ -27,14 +27,14 @@ class CandidatyController extends Controller
 
     public function update(Request $request, $id)
     {
-        $device = Candidate::findOrFail($id);
-        $device->update($request->all());
+        $candidate = Candidate::findOrFail($id);
+        $candidate->update($request->all());
     }
 
 
     public function destroy($id)
     {
-        $device = Candidate::findOrFail($id);
-        $device->delete();
+        $candidate = Candidate::findOrFail($id);
+        $candidate->delete();
     }
 }
