@@ -4,6 +4,7 @@
 # Ações disponiveis
 ##### Api
 CRUD de recrutadores, candidatos e tecnologias.
+
 Autenticação com laravel sanctum.
 
 ##### Frond-End
